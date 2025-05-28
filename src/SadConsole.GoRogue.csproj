@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <!-- Basic package info -->
@@ -42,6 +42,7 @@
 	  <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
     <PackageReference Include="GoRogue" Version="2.6.4" GeneratePathProperty="true" />
     <PackageReference Include="MonoGame.Framework.DesktopGL.Core" Version="3.8.0.1" PrivateAssets="All" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="SadConsole" Version="8.9.1" GeneratePathProperty="true" />
   </ItemGroup>
   
